@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import { getTokenFromUrl } from '../Login/Spotify';
+import { getTokenFromUrl } from '../Spotify/Spotify';
 import Login from '../Login/Login';
 import Dashboard from '../Dashboard/Dashboard';
 import Preferences from '../Preferences/Preferences';

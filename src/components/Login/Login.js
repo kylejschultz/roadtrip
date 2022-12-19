@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.css';
 import styled from "styled-components";
-import { loginUrl } from './Spotify';
+import { loginUrl } from '../Spotify/Spotify';
 
 const Button = styled.button`
   background-color: black;
