@@ -6,11 +6,11 @@ import Login from '../Login/Login';
 import Dashboard from '../Dashboard/Dashboard';
 import Preferences from '../Preferences/Preferences';
 
-console.log("This is what we pulled from URL:", getTokenFromUrl());
+//console.log("This is what we pulled from URL:", getTokenFromUrl());
 
 var _spotifyToken = getTokenFromUrl().access_token
 const clientId = process.env;
-console.log(clientId);
+//console.log(clientId);
 
 function setToken() {
   if (_spotifyToken == null) {
